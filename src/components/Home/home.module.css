@@ -1,0 +1,267 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12rem;
+}
+
+.title {
+  color: #FAC103;
+  margin-left: 2rem;
+  position: absolute;
+  font-size: 3.5rem;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+
+
+.boxy {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  margin: 1rem;
+  background-color: #795301;
+  border-radius: 8px;
+  font-size: 25rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.boxiy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 670px;
+  height: 200px;
+  margin: 1rem;
+  font-size: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #795301;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.box img {
+  width: 100px;
+}
+
+.boxtexti {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  animation-direction: alternate;
+}
+
+.boxtextif {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  animation-direction: alternate;
+
+}
+
+@keyframes mymove {
+  from {
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    transform: translate(0px, -50px);
+  }
+
+}
+
+
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.middile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.border {
+  width: 35%;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #FAC103;
+  color: white;
+  text-align: center;
+}
+
+.middletext {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  animation-direction: alternate; 
+}
+
+
+.desc{
+  text-align: center;
+  background-color: #000000;
+  padding: 1rem;
+  width: 90%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Card {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  width: 280px;
+  height: 130px;
+  border-radius: 12px 12px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.littlelogo img {
+  width: 60px;
+  margin-top: -2rem;
+}
+
+.littlelogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background { 
+ background-color: #114562;
+ height: 180px;
+ width: 280px;
+ margin-top: -1rem;
+ margin-left: 1rem;
+ border-radius:0px 0px 12px 12px ;
+}
+
+.middletitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.middledesc{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  font-size: 13px;
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pdesc{
+  width: 70%;
+  line-height: 1.8;
+}
+
+.hellotwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.hellotilt {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .box {
+    width: 200px;
+    height: 200px;
+  }
+
+  .boxiy {
+    background-position: center;
+    width: 200px;
+    height: 200px;
+  }
+
+  .boxtexti {
+    font-size: 20px;
+  }
+
+  .boxtextif {
+    font-size: 20px;
+  }
+  
+  .hellotilt {
+    font-size: 1.6rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hellotilt {
+    font-size: 1.6rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .border {
+    width: 100%;
+    height: 50px;
+  }
+
+  .pdesc {
+    font-size: 13px;
+    width: 100%;
+  }
+}

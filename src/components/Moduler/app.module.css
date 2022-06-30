@@ -1,0 +1,130 @@
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+}
+
+
+.bg{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-Minecraft-Aesthetic-Wallpaper-HD.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+  }
+
+.box {
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FAC103;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center div {
+    margin: 1rem;
+}
+
+.responsive {
+    margin-left: 2rem;
+    display: none;
+}
+
+.active {
+    display: none;
+    justify-content: center;
+    position: absolute;
+    background-color: #af7702;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: 3s;
+}
+
+.resmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.restext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70%;
+}
+
+.restexti {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #795301;
+    width: 60vh;
+}
+
+.close {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 2.5rem;
+
+}
+
+@media screen and (max-width: 400px) {
+    .menu {
+        width: auto;
+    }
+    .restexti{
+        width: 40vh;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .center {
+        display: none;
+    }
+
+    .box {
+        width: 120px
+    }
+
+
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .responsive {
+        display: flex;
+    }
+    
+}
+
+
