@@ -20,7 +20,7 @@ Anything else that you want to add for users? You can write it here in markdown 
 - Step 1: yarn
 - Step 2: yarn dev
 
-[preview](http://peachcraft.thealoq.xyz/) click preview 💛
+[preview](http://peachcraft.thealoq.app/) click preview 💛
 
       
 
